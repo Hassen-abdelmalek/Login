@@ -1,0 +1,59 @@
+.main-bg {
+  background: #24353f;
+}
+.my-shadow {
+  box-shadow: 0px 1px 20px 8px #00000078;
+}
+.login i {
+  padding: 9px;
+  color: rgba(255, 255, 255, 0.54) !important;
+  right: 5px;
+  cursor: pointer;
+  transition: 0.3s all !important;
+  font-size: 16px;
+  background-color: #24353f;
+}
+.login i:hover {
+  color: #0dcaf079 !important;
+  font-size: 18px;
+}
+.login input {
+  background-color: #24353f !important;
+}
+.login input::placeholder {
+  color: rgba(255, 255, 255, 0.54) !important;
+}
+input,
+select,
+textarea {
+  color: #f8f7f7 !important;
+}
+.login a[href="signup.html"]:hover {
+  text-decoration: underline !important;
+}
+.login a[href="login.html"]:hover {
+  text-decoration: underline !important;
+}
+a.btn:hover {
+  color: white !important;
+}
+.navbar.shadow-lg,
+footer {
+  box-shadow: 1px 0rem 1rem 2px rgb(0 0 0 / 39%) !important;
+}
+.col-md-4 img {
+  height: 145px;
+}
+@media (max-width: 767.98px) {
+  .col-md-4 img {
+    height: 100%;
+  }
+}
+
+h1#welcome {
+  box-shadow: 1px 0rem 1rem 2px rgb(0 0 0 / 39%) !important;
+  width: fit-content;
+}
+.anckor:hover {
+  color: #0dcaf079 !important;
+}
